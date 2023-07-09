@@ -9,11 +9,10 @@
 		{{{ if pagination.pages.length }}}
 		<div><!-- IMPORT partials/category/selector-dropdown-left.tpl --></div>
 		{{{ else }}}
-		<h1 class="categories-title">[[pages:categories]]</h1>
 		{{{ end }}}
 		<ul class="categories" itemscope itemtype="http://www.schema.org/ItemList">
 			{{{ each categories }}}
-			<!-- IMPORT partials/categories/item.tpl -->
+			<!-- IMPORT partials/categories/section.tpl -->
 			{{{ end }}}
 		</ul>
 		<!-- IMPORT partials/paginator.tpl -->

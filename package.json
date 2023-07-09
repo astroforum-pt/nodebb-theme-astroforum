@@ -1,10 +1,10 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-astroforum",
   "version": "13.1.7",
   "nbbpm": {
     "compatibility": "^3.0.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "Astroforum theme for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",

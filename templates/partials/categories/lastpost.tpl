@@ -4,13 +4,15 @@
 	<div component="category/posts">
 		<a class="background-link" href="{config.relative_path}/topic/{../topic.slug}<!-- IF ../index -->/{../index}<!-- ENDIF ../index -->"></a>
 		<p>
-			<a href="{config.relative_path}/user/{../user.userslug}">{buildAvatar(posts.user, "24px", true)}</a>
-			<a class="permalink text-muted" href="{config.relative_path}/topic/{../topic.slug}<!-- IF ../index -->/{../index}<!-- ENDIF ../index -->">
-				<small class="timeago" title="{../timestampISO}"></small>
+			<a class="permalink  text-muted" href="{config.relative_path}/topic/{../topic.slug}<!-- IF ../index -->/{../index}<!-- ENDIF ../index -->">
+				{../topic.title}
 			</a>
 		</p>
+		<p>
+			<small class="timeago" title="{../timestampISO}"></small>
+		</p>
 		<div class="post-content">
-			{../content}
+			por {buildAvatar(posts.user, "16px", true)}{../user.displayname}
 		</div>
 	</div>
 	<!-- ENDIF @first -->

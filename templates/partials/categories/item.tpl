@@ -3,7 +3,7 @@
 
 	<div class="content col-12 <!-- IF config.hideCategoryLastPost -->col-md-10 col-sm-12<!-- ELSE -->col-md-7 col-sm-9<!-- ENDIF config.hideCategoryLastPost -->">
 		<div class="float-start">
-		{buildCategoryIcon(@value, "48px", "rounded-circle")}
+		{buildCategoryIcon(@value, "24px", "rounded-circle")}
 		</div>
 		<h2 class="title">
 			<!-- IMPORT partials/categories/link.tpl -->
